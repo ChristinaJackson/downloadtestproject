@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', function() {
-
     // Create a link element
     let link = document.createElement('a');
     link.href = 'https://christinajackson.github.io/downloadtestproject/IAmASuspiciousDownload.pdf';
@@ -7,6 +6,6 @@ window.addEventListener('DOMContentLoaded', function() {
     //add link to body and click
     document.body.appendChild(link);
     link.click();
-    // remove the link from the document body
+    // remove the link from the document body, do I need this? maybe makes a loop otherwise?
     document.body.removeChild(link);
 });
